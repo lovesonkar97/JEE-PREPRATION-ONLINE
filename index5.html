@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="jquery.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1 class="ml-3 d-inline-block">JEE Prepration</h1><h2 class="ml-3 d-inline-block">| Online</h2>
+        <nav class="navbar navbar-expand navbar-light bg-info">
+            <div id="nav-div">
+                <ul class="navbar nav d-flex flex-nowrap">
+                    <button class="btn btn-info data-toggle d-sm-none" data-toggle="collapse" data-target="#main-l"><i class="navbar-toggler-icon"></i></button>
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">Home</a>
+                    </li>
+                    <li href="#" class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown">Tutorial<i></i></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a href="./index.html#physics-l" class="dropdown-link">Physics</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="./index.html#chemistry-l" class="dropdown-link">Chemistry</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="./index.html#maths-l" class="dropdown-link">Maths</a>
+                                </li>
+                            </ul>
+                     </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Refrences</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="main" style="min-height: 77.6vh" class="d-flex flex-wrap flex-sm-row flex-column">
+        <div id="main-l" class="collapse data-collapse d-sm-block">
+            <a class="d-block" href="./index.html#physics-l">Physics</a>
+            <a class="d-block" href="./index.html#chemistry-l">Chemistry</a>
+            <a class="d-block" href="./index.html#maths-l">Maths</a>
+        </div>
+        <div id="main-r"class=" container">
+            <h2 style="text-decoration: underline">Chemistry playlist</h2>
+            <div class="d-flex flex-wrap justify-content-around align-content-around">
+            <div class="card mb-2 mt-2">
+                <img class="card-img-center" src="./chem2-oc.jpg" alt="ant-time-padhai">
+                <p class="card-body">Organic chemistry - IIT JEE</p>
+                <h4 class="card-footer"><a id="chem2-oc"  style="color: black" href="#">Play All</a></h4>
+            </div> 
+            <div class="card mb-2 mt-2">
+                <img class="card-img-center" src="./chem2-hc.jpg" alt="ant-time-padhai">
+                <p class="card-body">Hydrocarbons| Alkanes,alkenes,alkynes|JEE|Medical|class 11</p>
+                <h4 id="chem2-hc" class="card-footer"><a style="color: black" href="#">Play All</a></h4>
+            </div> 
+            <div class="card mb-2 mt-2">
+                <img class="card-img-center" src="./chem2-as.jpg" alt="ant-time-padhai">
+                <p class="card-body">Atomic structure - IIT JEE</p>
+                <h4 id="chem2-as" class="card-footer"><a style="color: black" href="#">Play All</a></h4>
+            </div>  
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="text-white bg-dark justify-text text-center"><h5>JEE Prepration | online</h5>
+        <h4 class="text-uppercase">About us  |  Contact Us  |  privacy policy  |  terms of services</h4>
+        <h5>Copyright 2018 - JEE Prepration Pvt Ltd</h5>
+        </div>    
+</body>
+</html>
